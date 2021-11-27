@@ -1,4 +1,4 @@
-package CreditCard;
+package creditCard;
 
 import java.util.Scanner;
 

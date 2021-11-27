@@ -1,4 +1,4 @@
-package CreditCard;
+package creditCard;
 
 public class BankMachineMain {
     public static void main(String[] args) {

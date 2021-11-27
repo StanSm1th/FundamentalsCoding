@@ -40,7 +40,7 @@ public class BankMachine {
 
     }
 
-    public void showMenu(CreditCard creditCard) {
+    public void showMenu(creditCard creditCard) {
 
         boolean isAuthenticated = authenticate(creditCard);
 
@@ -123,7 +123,7 @@ public class BankMachine {
         System.out.println();
     }
 
-    private boolean authenticate(CreditCard creditCard) {
+    private boolean authenticate(creditCard creditCard) {
         System.out.println("Iveskite PIN:");
         Scanner scanner = new Scanner(System.in);
         int pinCode = scanner.nextInt();
